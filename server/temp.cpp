@@ -138,7 +138,7 @@ int32_t main()
     while (t--)
     {
 
-       solve()
+        solve();
     };
     return 0;
 }

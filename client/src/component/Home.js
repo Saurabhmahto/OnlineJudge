@@ -26,6 +26,7 @@ const Home = () => {
      const outputValue = await res.json();
      console.log(outputValue);
      const val=[outputValue];
+    setOutput([]);
      setOutput(val)
   }
   return (
